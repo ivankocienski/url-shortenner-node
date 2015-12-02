@@ -1,0 +1,20 @@
+extends layout
+
+block content
+
+  #header
+    h1 url shortener
+
+    #input-form
+      form( action='/', method='post', onsubmit='return form_submitter.submit()' )
+        label( for='url') url
+        input( name='url', value=url, type='text' )
+
+        button( type='submit') shorten
+        
+
+  if short_url
+    p#shortenned
+      a( href=short_url ) #{short_url}
+    
+
