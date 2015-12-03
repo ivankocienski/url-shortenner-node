@@ -1,7 +1,7 @@
 
 var assert = require( 'assert' );
 
-var shortener = require( '../src/shortener.js' );
+var shortener = require( '../lib/shortener.js' );
 
 describe( 'shortener', function() {
 

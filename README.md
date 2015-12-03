@@ -8,11 +8,18 @@ A small node app to demo url-shortenning service
 
 ## setup
 
-  git clone (url) url-shortenner-dir
+    git clone (url) url-shortenner-dir
 
-  cd url-shortenner-dir
+    cd url-shortenner-dir
 
-  ./bin/www
+    ./bin/www
 
 now visit localhost:3000
+
+## tests
+
+clone app and in url-shortenning-dir you run
+
+    ./node_modules/.bin/mocha
+
 
