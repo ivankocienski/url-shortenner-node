@@ -1,12 +1,12 @@
-= url shortenner
+# url shortenner
 
 A small node app to demo url-shortenning service
 
-== requirements
+## requirements
 
 > node/v8 etc
 
-== setup
+## setup
 
   git clone (url) url-shortenner-dir
 
